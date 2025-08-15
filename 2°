@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int i;
+
+    printf("Numero\tQuadrado\tCubo\n");
+
+    for (i = 0; i <= 10; i++) {
+        int quadrado = i * i;
+        int cubo = i * i * i;
+
+        
+        printf("%d\t%d\t\t%d\n", i, quadrado, cubo);
+    }
+
+    return 0;
+}
